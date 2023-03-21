@@ -53,7 +53,12 @@
     <h3>Authenticated Listings</h3>
     <p><a href="https://gist.github.com/SorobanDirectory/06a0e88671c4dcd78f965298d29722c3">4486 Public Key SHA256: 01e44cd59b2c0e8acbb99647d579f74f91bde66e4a243dc212a3c8e8739c9957</a></p>
     <div>
-        Test
+          <script src="https://unpkg.com/htmx.org@1.8.6"></script>
+  <!-- have a button POST a click via AJAX -->
+  <button hx-post="/clicked" hx-swap="outerHTML">
+    Click Me
+  </button>
+
     </div>
     
 
